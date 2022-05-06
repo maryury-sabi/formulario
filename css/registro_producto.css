@@ -1,0 +1,80 @@
+
+ul{
+    font-size: 1.7em;
+    text-align: right;
+    background: rgb(113, 138, 252);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    color: white;
+}
+li{
+    display: inline-block;
+    padding: 20px;
+    
+}
+.menu-contactenos{
+    margin-right: 30px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+
+.contenedor{
+     
+    width: 40%;
+    font-weight: 500;
+    margin: 0 auto;
+    font-size: 1em;
+    margin-top: 60px ;
+    display: grid;
+   
+}
+.button{
+    grid-area: botones;
+   
+    margin:  0 auto;
+    font-size: 1em;
+    height: 2em;
+    width: 100%;
+    background-color: rgb(123, 194, 226);
+}
+h1{
+    text-align: center;
+}
+.input{
+    font-size: 1.2em;
+    width: 20%;
+  
+  
+}
+.input1{
+    font-size: 1.2em;
+    width:70%;
+    
+}
+.label{
+    margin-left: 70px;
+}
+
+.table-style{
+    width: 40em;
+    height: 2em;
+    border: 1px solid rgb(17, 53, 255);
+    margin: 0 auto;
+    color: aliceblue;
+    background: rgba(10, 10, 10, 0.945);
+    border-collapse: collapse;
+}
+tr,th,td{
+    border: 1px solid rgb(17, 53, 255);
+}
+td{
+    background: rgb(199, 195, 195);
+    color: black;
+}

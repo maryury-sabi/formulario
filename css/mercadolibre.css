@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Encabezado */
+.encabezado {
+  display: grid;
+  width: 100%;
+  height: 60px;
+  background-color: rgb(143, 134, 59);
+  font-family: roboto, sans-serif;
+  grid-template:
+    "icono-barra busqueda icono-carrito" /
+    1fr 7fr 1fr;
+}
+.icono-barra {
+  /* position: fixed; */
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 1.3em;
+  font-weight: 400;
+  grid-area: icono-barra;
+  cursor: pointer;
+}
+.busqueda {
+  /* position: fixed; */
+  background-color: white;
+  border-radius: 30px;
+  width: 100%;
+  height: 32px;
+  /*   margin-top: 15px;
+    margin-left: 50px; */
+  display: block;
+  margin: 15px auto 0 auto;
+  grid-area: busqueda;
+  font-weight: regular;
+  font-family: roboto, sans-serif;
+  color: red;
+}
+.icono-carrito {
+  font-size: 1.1em;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  text-align: right;
+  color: rgb(24, 24, 24, 0.9);
+  grid-area: icono-carrito;
+  cursor: pointer;
+}
+input[type="text"] {
+  /* position: fixed; */
+  background-color: white;
+  border-radius: 30px;
+  width: 95%;
+  height: 32px;
+  /*   margin-top: 15px;
+    margin-left: 50px; */
+  display: block;
+  margin: 15px auto 0 auto;
+  grid-area: busqueda;
+  border: 0;
+  outline: none;
+  padding-left: 20px;
+  font-family: roboto, sans-serif;
+  font-weight: 700;
+  color: rgb(48, 48, 48, 0.8);
+}
+
+/* Contenido */
+.style-contentImg {
+  font-family: lato, sans-serif;
+  display: grid;
+  padding: 20px;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgb(48, 48, 48, 0.2);
+  /*  grid-template: */ /* "img-car descripcion" 25px 
+                    "img-car precio" 25px 
+                    "img-car kilometros" 25px
+                    "img-car empty" 10px /
+                    6fr       8fr;  */ /* width: 100%; */
+  grid-template:
+    "img-car descripcion" 25px
+    "img-car precio" 25px
+    "img-car kilometros" 25px
+    "img-car empty" auto /
+    6fr 8fr;
+}
+.img-style {
+  /* padding: 20px;
+    box-sizing:border-box; */
+  width: 100%;
+  grid-area: img-car;
+}
+.style-precio {
+  font-family: lato, sans-serif;
+  font-size: 1.4em;
+  font-weight: 400;
+  /* display: block; */
+  grid-area: precio;
+  margin-left: 17px;
+  color: rgba(24, 24, 24, 0.9);
+}
+.style-anyo {
+  font-size: 1em;
+  margin-left: 17px;
+  display: block;
+}
+
+.style-contentSeparador {
+  display: inline-block;
+  box-sizing: border-box;
+  padding-right: 4px;
+  margin-right: 4px;
+  /* border-right: 1px solid rgb(48,48,48,.7); */
+}
+.style-descripcion {
+  display: block;
+  margin-left: 17px;
+  grid-area: descripcion;
+}
+.style-kilometraje {
+  padding-top: 10px;
+  grid-area: kilometros;
+  margin-left: 17px;
+  font-size: 0.9em;
+  font-family: lato, sans-serif;
+}

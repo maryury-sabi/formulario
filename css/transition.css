@@ -1,0 +1,77 @@
+h2{
+    text-align: center;
+}
+
+
+div {
+    width: 200px;
+    height: 200px;
+    background: rgb(13, 93, 99);
+    transition: width 1s;
+  }
+  
+  div:hover {
+    width: 300px;
+  }
+
+
+
+  .example2{
+    width: 100px;
+    height: 100px;
+    background: rgb(10, 86, 92);
+    transition: width 1s, height 4s;
+  }
+  
+  .example2:hover {
+    width: 300px;
+    height: 300px;
+  }
+
+
+  .example3{
+    width: 100px;
+    height: 100px;
+    background: rgb(13, 103, 109);
+    transition: width 2s, height 2s, transform 2s;
+  }
+
+  .example3:hover {
+    width: 300px;
+    height: 300px;
+    transform: rotate(180deg);
+  }
+
+  .example4{
+
+    width: 300px;
+    height: 100px;
+    background-color: rgb(15, 110, 86);
+    border: 1px solid rgb(236, 234, 234);
+    transform: translate(20px,30px);
+    color: white;
+  }
+
+  .example5{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(20, 99, 119);
+    border: 1px solid rgb(214, 209, 209);
+color: #fff;  }
+
+  .example5#myDiv {
+    transform: rotate(15deg);
+    color: #fff;
+  }
+
+  .example6{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(25, 96, 129);
+    border: 1px solid rgb(238, 222, 222);
+    color:#ffff;
+  }
+
+  .example6#myDiv {
+    transform: rotate(-50deg);
+  }

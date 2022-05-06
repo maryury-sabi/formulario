@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro Producto</title>
+    <link rel="stylesheet" href="css/registro_producto.css">
+</head>
+<body>
+<ul>
+    <li><a href="mercado_libre.html">Mercado Libre</a></li>
+    <li><a href="vuleos.html">Vuelos</a></li>
+    <li><a href="homecenter.html">HOMECENTER</a></li>
+</ul>
+
+    <fieldset class="contenedor">
+    <form >
+        <h1>Registro de productos</h1>
+        <label  for="cod">Código del producto</label>
+        <input class="input" type="text"  id="cod"> <br> <br>
+        <label for="descripcion">descripcion</label>
+        <input class="input1" type="text"  id="descripcion">
+        <br> <br>
+        <label  for="cod">Valor Unitario</label> 
+        <input class="input" type="text"  id="valorUnitario"> 
+        <label class="label" for="descripcion">Unidades en Stock</label>
+        <input class="input" type="text"  id="valoStock">
+        <br> <br><br>
+        <input class="button" type="button" name="btn1" id="boton" onclick="registrarInfo();" value="Cargar Producto" >
+
+    </form>
+    </fieldset><br>
+
+    <div id="table-js"></div>
+
+
+
+
+
+
+    <script src="js/registro_producto.js"></script>
+</body>
+</html>

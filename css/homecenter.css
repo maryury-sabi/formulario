@@ -1,0 +1,214 @@
+*{
+   background: rgb(245,245,245);
+   margin: 0;
+   padding: 0;
+  box-sizing: border-box;
+}
+
+.image-ana-visible{
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.image-ana-hidden{
+    visibility: hidden;
+
+}
+
+.form-ana-hidden{
+position: fixed;
+height: 450px;
+width: 300px;
+right: -120px;
+bottom: -160px;
+overflow: hidden;
+border: 1px solid black;
+/* display: none; */
+ transform: scale(0.01);
+transition: 1.5s transform;
+
+}
+.contenedor-visible{
+    width: 300px;
+    height: 450px;
+    position: fixed;
+    bottom: -160px;
+    right: -160px;
+    border-radius: 6px;
+    border: 1px solid black;
+    transition: 1.5s transform;
+    transform: scale(1) translate(-200px, -200px) ;
+    background: rgb(255, 254, 254);
+}
+.cerrar-from-visible{
+right: 20px;
+top: 10px;
+font-size: 1.7em;
+font-weight: 600;
+cursor: pointer;
+background: rgb(255, 254, 254);
+}
+
+.cerrar{
+
+padding: 4px;
+cursor: pointer;
+font-weight: 100%;
+font-size: 1.1em;
+}
+
+.button{
+   
+    color: white;
+    margin:  0 auto;
+    font-size: 1em;
+    height: 2em;
+    width: 70%;
+    background-color: rgb(36, 141, 240);
+    margin-left: 20px;
+    border-radius: 10px;
+} 
+input{
+    font-size: 1.1em;
+    width: 70%;
+    margin-left: 20px;
+    background: white;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+.input1{
+    font-size: 1.2em;
+    width:70%;
+    height: 5em;
+    background: rgb(255, 254, 254);
+    padding: 10px;
+}
+
+h1,h2{
+    text-align: center;
+    padding: 1px;
+    background: rgb(255, 254, 254);
+}
+
+
+.encabezado {
+    display: grid;
+    background: rgb(255, 252, 252);
+    inline-size: 100%;
+    border-bottom: 2px solid rgb(158, 146, 146);
+    grid-template: "hamburguer  icon-homecenter  empty  icono-lupa    carrito-compras icono-user" 55px /
+                    40px         70px             1fr  40px               40px            40px;
+}
+
+.encabezadoInvisible{
+    display: none;
+}
+.encabezado img{
+    inline-size: 100%;
+}
+.menu-hamburguer {
+    display: flex;
+    grid-area: hamburguer;
+    font-size: 1.75em;
+    align-items: center;
+    margin-left: 25px;
+    background: rgb(245,245,245);
+}
+
+.icono-homecenter {
+    display: flex;
+    grid-area: icon-homecenter;
+    /* width: 100%; */
+    align-items: center;
+    margin-left: 22px;
+    margin-top: 5px;
+    /* align-items: center; */
+    background: rgb(245,245,245);
+}
+.icono-lupa {
+    display: flex;
+    grid-area: icono-lupa;
+    /* text-align: right; */
+    /* margin-right: 150px; */
+    /* justify-content: flex-end; */
+    align-items: center;
+    width: 55%;
+    cursor: pointer;
+    background: rgb(245,245,245);
+}
+
+.carrito-compras {
+    grid-area: carrito-compras;
+    width: 70%;
+    margin-top: 12px;
+    text-align: left;
+    background: rgb(245,245,245);
+}
+.icono-user {
+    grid-area: icono-user;
+    width: 70%;
+    margin-top: 12px;
+    margin-left: 10px;
+    background: rgb(245,245,245);
+}
+
+.encabezado2{
+    display: grid;
+    background: rgb(245,245,245);
+    inline-size: 100%;
+    border-bottom: 2px solid rgb(158, 146, 146);
+    grid-template: "  icono-lupa2     busqueda   cerrar"  55px/ 
+                         45px          8fr        90px;
+}
+
+.busqueda{
+    grid-area: busqueda;
+    border: none;
+    border-radius: none;
+    width: 80%;
+    height: 60%;
+    background: rgb(245,245,245);
+}
+.icono-lupa2{
+    display: flex;
+    grid-area: icono-lupa2;
+    margin-left: 22px;
+    margin-top: 10px;
+    width: 55%;
+    background: rgb(245,245,245);
+}            
+  .cerrar{
+    grid-area: cerrar;
+    margin-left: 22px;
+    margin-top: 10px;
+    width: 50%;
+    font-size: 1.6em;
+    background: rgb(245,245,245);
+  }
+
+  .encabezado2invisible{
+      display: none;
+  }
+
+@media(min-width:600px){
+    .slidermainS{
+        display: block;
+        background-image:url("../img/imagen.png") ;
+        background-repeat: no-repeat;
+       
+        height: 531px;
+    }
+}
+
+@media(max-width:601px){
+    .slidermainS{
+        display: block;
+        background-image:url("../img/home.png") ;
+        background-repeat: no-repeat;
+        background-position-x: center;
+         background-size: contain;
+        height: 600px;
+    }
+}
