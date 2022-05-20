@@ -23,14 +23,13 @@
 
 .boton-visible{
     position: fixed;
-    grid-area: botones;
-    color: white;
+    color: rgb(220, 219, 219);
     margin:  0 auto;
     font-size: 1em;
     height: 50px;
     width: 60px;
     right: 20px;
-    background-color: rgba(64, 64, 65, 0);
+    background-color: rgb(1, 1, 1);
     cursor: pointer;
 }
 .boton-invisible{

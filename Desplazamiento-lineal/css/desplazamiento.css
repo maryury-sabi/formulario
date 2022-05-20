@@ -1,4 +1,23 @@
+.main-menu{
+    position: fixed;
+    z-index: 6;
+    font-size: 1.4em;
+    font-family:Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    display: block;
+    width:100%;
+    list-style: none;
+}
 
+li{
+    text-align: right;
+    margin-right:60px;
+}
+a{
+    color: #ff3075;
+    text-decoration: none;
+    font-weight: 600;
+}
 .toyota-home-visible{
     position: fixed;
     left: 0;
@@ -55,7 +74,7 @@
     position: fixed;
     height: 40px;
     width: 100%;
-    bottom: 350px;
+    bottom: 400px;
     display: flex;
     justify-content: center;
 
