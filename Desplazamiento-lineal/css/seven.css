@@ -1,0 +1,163 @@
+
+    *{
+        margin: 0;
+        padding: 0;
+       box-sizing: border-box;
+     }
+
+
+
+.form-hidden{
+    position: fixed; 
+    border: 1px solid transparent;
+    width: 300px;
+    height: 500px;
+    right: 20px;
+    bottom: -503px;
+    background-color: rgba(135, 183, 209, 0.795);
+    transition: bottom 1.5s;
+
+}
+.form-visible{
+    width: 300px;
+    height: 500px;
+    border: 1px solid transparent;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: rgba(135, 183, 209, 0.795);
+    transition: bottom 1.5s;
+}
+
+.boton-visible{
+    cursor: pointer;
+         position: fixed;
+         bottom: 20px;
+         right: 20px;
+         background-color: rgba(0, 0, 0, 0);
+
+}
+.boton-invisible{
+    visibility: hidden;
+} 
+
+
+.cerrar-form-visible{
+    right: 20px;
+    top: 40px;
+    font-size: 1em;
+    font-weight: 200;
+    cursor: pointer;
+
+
+}
+.cerrar{
+    padding: 20px;
+    cursor: pointer;
+    font-weight: 200;
+    font-size: 1.1em;
+    display: none;
+
+    }
+
+
+    *{
+        background: rgb(245,245,245);
+        margin: 0;
+        padding: 0;
+       box-sizing: border-box;
+     }
+     
+     .image-ana-visible{
+         cursor: pointer;
+         position: fixed;
+         bottom: 20px;
+         right: 20px;
+     }
+     .image-ana-hidden{
+         visibility: hidden;
+     
+     }
+
+     
+     
+     .encabezado {
+         display: grid;
+         inline-size: 100%;
+         border-bottom: 2px solid rgb(158, 146, 146);
+         grid-template: "seven     icono-lupa   " 55px /
+                          1fr        40px       40px    
+     }
+     
+     .encabezadoInvisible{
+         display: none;
+     }
+     .encabezado img{
+         inline-size: 100%;
+     }
+     .seven_tod{
+        grid-area: seven ;
+        width: 10%%;
+     }
+     .icono-lupa {
+         display: flex;
+         grid-area: icono-lupa;
+         align-items: center;
+         width: 55%;
+         cursor: pointer;
+         background: rgb(245,245,245);
+     }
+     
+     .carrito-compras {
+         grid-area: carrito-compras;
+         width: 70%;
+         margin-top: 12px;
+         text-align: left;
+         background: rgb(245,245,245);
+     }
+     .icono-user {
+         grid-area: icono-user;
+         width: 70%;
+         margin-top: 12px;
+         margin-left: 10px;
+         background: rgb(245,245,245);
+     }
+     
+     .encabezado2{
+         display: grid;
+         background: rgb(245,245,245);
+         inline-size: 100%;
+         border-bottom: 2px solid rgb(158, 146, 146);
+         grid-template: "  icono-lupa2     busqueda   cerrar"  55px/ 
+                              45px          8fr        90px;
+     }
+     
+     .busqueda{
+         grid-area: busqueda;
+         border: none;
+         border-radius: none;
+         width: 80%;
+         height: 60%;
+         background: rgb(245,245,245);
+     }
+     .icono-lupa2{
+         display: flex;
+         grid-area: icono-lupa2;
+         margin-left: 22px;
+         margin-top: 10px;
+         width: 55%;
+         background: rgb(245,245,245);
+     }            
+       .cerrar{
+         grid-area: cerrar;
+         margin-left: 22px;
+         margin-top: 10px;
+         width: 50%;
+         font-size: 1.6em;
+         background: rgb(245,245,245);
+       }
+     
+       .encabezado2invisible{
+           display: none;
+       }
+     

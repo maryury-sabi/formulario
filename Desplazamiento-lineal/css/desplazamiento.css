@@ -1,0 +1,87 @@
+
+.toyota-home-visible{
+    position: fixed;
+    left: 0;
+    transition: left 1500ms;
+}
+.toyota-home-oculta{
+    position: fixed;
+    left: -100%;
+    transition: left 1500ms;
+}
+.toyota-banner-oculta-derecha{
+    position: fixed;
+    left: 100%;
+    transition: left 1500ms;
+}
+.toyota-banner-visible{
+    position: fixed;
+    left: 0;
+    transition: left 1500ms;
+}
+.toyota-banner-oculta-izquierda{
+    position: fixed;
+    left: -100%;
+    transition: left 1500ms;
+}
+.toyota-raize-oculta{
+    position: fixed;
+    left: 100%;
+    transition: left 1500ms;
+}
+.toyota-raize-visible{
+    position: fixed;
+    left: 0;
+    transition: left 1500ms;
+}
+.botonAdelante{
+    font-size: 3em;
+    cursor: pointer;
+    position: fixed;
+    bottom: 500px;
+    right: 50px;
+    color: white
+}
+.botonAtras{
+    font-size: 3em;
+    cursor: pointer;
+    position: fixed;
+    bottom: 500px;
+    left:50;  
+    color: white
+}
+
+.circulos{
+    position: fixed;
+    height: 40px;
+    width: 100%;
+    bottom: 350px;
+    display: flex;
+    justify-content: center;
+
+}
+.circulo{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.circulo-1{
+    margin-right: 10px;
+
+}
+
+.circulo-2{
+    margin-left: 10px;
+}
+.circulo-3{
+    margin-left: 20px;
+}
+
+.color-claro{
+    background-color: rgb(244, 236, 236);
+}
+
+.color-oscuro{
+    background-color: rgb(164, 13, 13);
+}

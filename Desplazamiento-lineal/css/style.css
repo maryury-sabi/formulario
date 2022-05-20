@@ -1,0 +1,64 @@
+
+.form-hidden{
+    position: fixed; 
+    border: 1px solid transparent;
+    width: 300px;
+    height: 500px;
+    right: 20px;
+    bottom: -503px;
+    background-color: rgba(135, 183, 209, 0.795);
+    transition: bottom 1.5s;
+
+}
+.form-visible{
+    width: 300px;
+    height: 500px;
+    border: 1px solid transparent;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: rgba(135, 183, 209, 0.795);
+    transition: bottom 1.5s;
+}
+
+.boton-visible{
+    position: fixed;
+    grid-area: botones;
+    color: white;
+    margin:  0 auto;
+    font-size: 1em;
+    height: 50px;
+    width: 60px;
+    right: 20px;
+    background-color: rgba(64, 64, 65, 0);
+    cursor: pointer;
+}
+.boton-invisible{
+    visibility: hidden;
+} 
+
+
+.cerrar-form-visible{
+    right: 20px;
+    top: 40px;
+    font-size: 1em;
+    font-weight: 200;
+    cursor: pointer;
+
+
+}
+.cerrar{
+    padding: 20px;
+    cursor: pointer;
+    font-weight: 200;
+    font-size: 1.1em;
+    display: none;
+  
+
+    }
+p{
+    font-size: 1.3em;
+    line-height: 1.2em;
+    margin: 30px;
+    text-align: justify;
+}
